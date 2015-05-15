@@ -1,0 +1,7 @@
+pipeline-performance
+hiredis_performance
+.crystal
+.deps
+.deps.lock
+build/
+libs
