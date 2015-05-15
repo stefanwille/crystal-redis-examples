@@ -12,7 +12,7 @@ $ crystal deps
 
 ## Running the Examples
 
-All examples are in the [src/ directory](https://github.com/stefanwille/crystal-redis-examples/tree/master/src.).
+All examples are in the [src/](https://github.com/stefanwille/crystal-redis-examples/tree/master/src) directory.
 
 Read the source code of an example that you are interested in. It is best to start with [src/basic.cr](https://github.com/stefanwille/crystal-redis-examples/blob/master/src/basic.cr).
 
