@@ -1,6 +1,6 @@
-## Examples for the Crystal-Redis
+## Examples for Crystal-Redis
 
-These examples are meant to get you started with the [Crystal Redis client](https://github.com/stefanwille/crystal-redis).
+These examples are meant to help you get you started with the [Crystal Redis client](https://github.com/stefanwille/crystal-redis).
 
 ## Installation
 
@@ -12,7 +12,9 @@ $ crystal deps
 
 ## Running the Examples
 
-Read the source code of an example that you are interested in. It is best to start with `src/basic.cr`.
+All examples are in the [src/ directory](https://github.com/stefanwille/crystal-redis-examples/tree/master/src.).
+
+Read the source code of an example that you are interested in. It is best to start with [src/basic.cr](https://github.com/stefanwille/crystal-redis-examples/blob/master/src/basic.cr).
 
 Then run the example. For instance, to run `src/basic.cr`, use `crystal run` in the terminal:
 
