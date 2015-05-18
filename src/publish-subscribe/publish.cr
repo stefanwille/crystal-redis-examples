@@ -1,5 +1,5 @@
 
-require "../../src/redis"
+require "redis"
 
 redis = Redis.new
 puts "Connected to Redis"
