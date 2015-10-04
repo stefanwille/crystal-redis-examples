@@ -7,3 +7,5 @@ build/
 libs
 publish
 subscribe
+.shards
+shard.lock
