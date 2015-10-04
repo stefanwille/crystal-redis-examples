@@ -7,7 +7,7 @@ These examples are meant to help you get you started with the [Crystal Redis cli
 You need to install the crystal-redis client into this project:
 
 ```bash
-$ crystal deps
+$ shards install
 ```
 
 ## Running the Examples
