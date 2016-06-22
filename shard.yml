@@ -1,9 +1,10 @@
 name: crystal-redis-examples
-version: 0.2.0
+version: 0.3.0
 
 dependencies:
   redis:
     git: https://github.com/stefanwille/crystal-redis.git
-    version: ~> 1.5.1
+    version: ~> 1.6.4
+
 
 license: BSD
