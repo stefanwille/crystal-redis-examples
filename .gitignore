@@ -5,6 +5,7 @@ hiredis_performance
 .deps.lock
 build/
 libs
+lib
 publish
 subscribe
 .shards
