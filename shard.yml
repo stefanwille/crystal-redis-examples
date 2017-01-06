@@ -4,7 +4,7 @@ version: 0.3.0
 dependencies:
   redis:
     git: https://github.com/stefanwille/crystal-redis.git
-    version: ~> 1.6.6
+    version: ~> 1.7.1
 
 
 license: BSD
