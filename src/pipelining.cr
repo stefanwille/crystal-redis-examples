@@ -29,10 +29,10 @@ future_3 = Redis::Future.new
 future_4 = Redis::Future.new
 responses = redis.pipelined do |pipeline|
   pipeline.set("foo4", "fourth")
-  future_1 = Redis::Future.cast(pipeline.get("foo1"))
-  future_2 = Redis::Future.cast(pipeline.get("foo2"))
-  future_3 = Redis::Future.cast(pipeline.get("foo3"))
-  future_4 = Redis::Future.cast(pipeline.get("foo4"))
+  future_1 = pipeline.get("foo1").as(Redis::Future)
+  future_2 = pipeline.get("foo2").as(Redis::Future)
+  future_3 = pipeline.get("foo3").as(Redis::Future)
+  future_4 = pipeline.get("foo4").as(Redis::Future)
 end
 
 puts "Responses: #{responses}"
