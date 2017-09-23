@@ -3,13 +3,17 @@
 First start one or more subscribers:
 
 ```bash
-$ crystal run examples/publish-subscribe/subscribe.cr
+$ crystal run src/publish-subscribe/subscribe.cr
+```
+
+```bash
+$ crystal run src/publish-subscribe/psubscribe.cr
 ```
 
 Then start one or more publishers in separate terminal windows:
 
 ```bash
-$ crystal run examples/publish-subscribe/publish.cr
+$ crystal run src/publish-subscribe/publish.cr
 ```
 
 Now when you type a message in the prompt of one of the publishers, it will
